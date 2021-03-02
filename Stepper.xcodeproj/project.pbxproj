@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A555275B25ED782A006C403D /* StepperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555275A25ED782A006C403D /* StepperApp.swift */; };
-		A555275D25ED782A006C403D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555275C25ED782A006C403D /* ContentView.swift */; };
+		A555275D25ED782A006C403D /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555275C25ED782A006C403D /* Stepper.swift */; };
 		A555275F25ED782B006C403D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A555275E25ED782B006C403D /* Assets.xcassets */; };
 		A555276225ED782B006C403D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A555276125ED782B006C403D /* Preview Assets.xcassets */; };
+		A555277025EE2E1D006C403D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A555276F25EE2E1D006C403D /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A555275725ED782A006C403D /* Stepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A555275A25ED782A006C403D /* StepperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperApp.swift; sourceTree = "<group>"; };
-		A555275C25ED782A006C403D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A555275C25ED782A006C403D /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 		A555275E25ED782B006C403D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A555276125ED782B006C403D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A555276325ED782B006C403D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A555276F25EE2E1D006C403D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		A555274E25ED782A006C403D = {
 			isa = PBXGroup;
 			children = (
+				A555276F25EE2E1D006C403D /* .gitignore */,
 				A555275925ED782A006C403D /* Stepper */,
 				A555275825ED782A006C403D /* Products */,
 			);
@@ -53,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				A555275A25ED782A006C403D /* StepperApp.swift */,
-				A555275C25ED782A006C403D /* ContentView.swift */,
+				A555275C25ED782A006C403D /* Stepper.swift */,
 				A555275E25ED782B006C403D /* Assets.xcassets */,
 				A555276325ED782B006C403D /* Info.plist */,
 				A555276025ED782B006C403D /* Preview Content */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A555276225ED782B006C403D /* Preview Assets.xcassets in Resources */,
+				A555277025EE2E1D006C403D /* .gitignore in Resources */,
 				A555275F25ED782B006C403D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A555275D25ED782A006C403D /* ContentView.swift in Sources */,
+				A555275D25ED782A006C403D /* Stepper.swift in Sources */,
 				A555275B25ED782A006C403D /* StepperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
